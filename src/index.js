@@ -1,17 +1,15 @@
 import ReactDOM from 'react-dom'
-import Titulo from './Topo'
-import Menu from './Menu'
-import Conteudo from './Conteudo'
+import Navbar from './Navbar';
+import Body from "./Body"
 
 
 
 function App() {
     return (
-		<div>
-            <Titulo />
-            <Menu />
-			<Conteudo />
-		</div>
+        <div>
+		    <Navbar />
+            <Body />
+        </div>
 	);
 }
 
